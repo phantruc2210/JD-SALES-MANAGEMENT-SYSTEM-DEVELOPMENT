@@ -1,0 +1,21 @@
+Hướng dẫn chạy chương trình "Quản lý bán hàng văn phòng phẩm JD"
+
+BƯỚC 1. Chạy file script CSDL được đính kèm trên SQL Server 
+BƯỚC 2. Mở file chương trình QLBH_VANPHONGPHAM_JD trên Visual Studio
+BƯỚC 3. Chọn file KetNoi.cs điều chỉnh đường dẫn kết nối : DataSource  = Server Name trên SQL Server của người dùng
+BƯỚC 4. Tại Solution Explorer, chuột phải chọn References/ Add Reference.../ Browse. Tại đây, mở folder Bunifu được 
+đính kèm trong mục "Phần Mềm" và Ctrl + A để chọn toàn bộ. Nhấn Add để thêm Bunifu Framework và chọn OK để hoàn
+tất. Nếu xuất hiện thông báo lỗi, nhấn OK để tiếp tục.
+BƯỚC 5. Nhấn Start để chạy chương trình
+BƯỚC 6. Mật khẩu đăng nhập cho tài khoản
+
+* Đối với tài khoản quyền quản lý *
+Tên đăng nhập : quanly
+Mật khẩu : 12345678*
+
+* Đối với tài khoản quyền nhân viên *
+Tên đăng nhập : NV0009
+Mật khẩu : 12345678*
+
+*** Lưu ý : Nếu trong quá trình thao tác xuất hiện file licenses.licx trong Project tại Solution Explorer, hãy CTRL + S để lưu bài, xóa file licenses.licx và chọn "Start" để chạy như bình thường ***
+
